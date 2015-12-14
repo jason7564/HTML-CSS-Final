@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" type="text/css" href="contact.css" />
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="font-awesome-4.5.0/css/font-awesome.min.css" />
+    <script src="bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+    <title>Contact</title>
+</head>
+<body>
+   <div id="wrapper">
+       <header id="masthead">
+       </header>
+       <nav id="mainnav">
+          <a id="brandName" class="navbar-brand" href="http://prez0005.edumedia.ca/mad9013/final/index.html">Jason Preziuso</a>
+          <button type="button" class="navbar-toggler hidden-sm-up" data-toggle="collapse" data-target=".navbar-collapse">&#9776;</button>
+            <ul class="navbar-collapse collapse navbar-toggleable-xs">
+               <li><a id="navLink" href="http://prez0005.edumedia.ca/mad9013/final/index.html">Home</a></li>
+               <li><a id="navLink" href="http://prez0005.edumedia.ca/mad9013/final/projects.html">Projects</a></li>
+               <li><a id="navLink" href="http://prez0005.edumedia.ca/mad9013/final/contact.html">Contact</a></li>
+            </ul>
+      </nav>
+       <main id="content">
+           <form action=mailto:italia_2003_@hotmail.com method="POST" enctype="multipart/form-data">
+                <fieldset>
+                    <legend id="legend">Contact Me!</legend>
+                    <p>Looking to hire an elite programmer? Send me an email! just fill out the form below and I'll get back to you within 24 hours!</p>
+                    <div class="inputs">
+                        <div class="box">
+                            <label for="name">Name:</label>
+                            <input type="text" id="name" placeholder="Name" />
+                        </div>
+                        <div class="box">
+                            <label for="email">Email:</label>
+                            <input type="email" id="email" placeholder="Email" />
+                        </div>
+                        <div class="box">
+                            <label for="comp">Company:</label>
+                            <input type="text" id="comp" placeholder="Company Name" />
+                        </div>
+                        <div class="box" id="messB">
+                            <label id="messL" for="mess">Message:</label>
+                            <textarea id="mess" rows="5" placeholder="Your Message"></textarea>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <input type="submit" value="SEND" id="submit" />
+                    </div>
+                </fieldset>
+           </form>
+       </main>   
+       <footer id="footer">
+           <p>&copy; Jason Preziuso 1991-2015</p>
+           <a href="http://www.facebook.com"><i class="fa fa-facebook-square fa-2x"></i></a>
+           <a href="http://www.twitter.com"><i class="fa fa-twitter-square fa-2x"></i></a>
+           <a href="http://www.github.com"><i class="fa fa-github fa-2x"></i></a>
+           <a href="http://www.codepen.com"><i class="fa fa-codepen fa-2x"></i></a>
+       </footer>
+   </div>
+</body>
+</html>

@@ -1,0 +1,490 @@
+/* Serif */
+@import url(https://fonts.googleapis.com/css?family=Slabo+27px); /* font-family: "Slabo 27px", "Lora", serif; */
+@import url(https://fonts.googleapis.com/css?family=Lora);
+/* Sans-Serif */
+@import url(https://fonts.googleapis.com/css?family=Roboto); /* font-family: "Roboto", "Droid Sans", sans-serif; */
+@import url(https://fonts.googleapis.com/css?family=Droid+Sans);
+
+/* Colors */
+/*
+Black: #000000
+Charcoal: #434147
+White: #FFFFFF
+Blue: #00C0F7
+Darker-Blue: #0092F7
+*/
+
+* {
+    box-sizing: border-box;
+}
+
+/* Header */
+#masthead {
+    background-image: url("http://l.rgbimg.com/cache1snk6t/users/w/we/weirdvis/600/nvGcf0C.jpg");
+    /* free image from http://www.rgbstock.com/bigphoto/nvGcf0C/Brick+Wall*/
+}
+
+#avatar {
+    width: 100%;
+    padding: 40px 10px 0px 10px;
+}
+
+/* Navigation */
+#mainnav a {
+    text-align: center;
+    margin: auto;
+    font-family: "Slabo 27px", "Lora", serif;
+}
+
+#mainnav ul li a{
+    display: block;
+    white-space: nowrap;
+    list-style-type: none;
+    padding: 14px;
+    color: #FFFFFF;
+    clear: both;
+}
+
+ul {
+    padding-left: 0px;
+}
+
+#mainnav {
+    width: 100%; 
+    background-color: #000000;
+}
+
+#mainnav ul {
+    table-layout: fixed;
+    width: 100%;
+}
+
+#mainnav li {
+    display: block;
+    width: 100%;
+    text-align: center;
+}
+
+#mainnav li:hover {
+    background-color: #00C0F7;
+}
+
+.navbar-brand {
+    width: 100%;
+    text-align: center;
+    color: #FFFFFF;
+    display: block;
+    background-color: #000000;
+    float: left;
+    font-family: "Slabo 27px", "Lora", serif;
+}
+
+.navbar-toggler {
+    display: block;
+    margin: auto;
+    background-color: #0092F7;
+    color: #000000;
+    border: none;
+    width: 35px;
+}
+
+#navLink{
+    font-size: 16px;
+}
+
+/* Main Content */
+#content {
+    line-height: 1.8;
+    overflow: hidden;
+    -webkit-column-count: 1;
+    -webkit-column-gap: 10px;
+    -moz-column-count: 1;
+    -moz-column-gap: 10px;
+    column-count: 1;
+    column-gap: 10px;
+    padding: 10px;
+    color: #FFFFFF;
+}
+
+#wrapper {
+    background-color: #434147;
+}
+
+#bio {
+    width: 100%;
+    height: auto;
+    font-family: "Roboto", "Droid Sans", sans-serif;
+}
+
+#jobExp{
+    width: 100%;
+    height: auto;
+    font-family: "Roboto", "Droid Sans", sans-serif;
+}
+
+#education{
+    width: 100%;
+    height: auto;
+    font-family: "Roboto", "Droid Sans", sans-serif;
+}
+
+#skills{
+    width: 100%;
+    height: auto;
+    font-family: "Roboto", "Droid Sans", sans-serif;
+}
+
+#actSoc{
+    width: 100%;
+    height: auto;
+    font-family: "Roboto", "Droid Sans", sans-serif;
+}
+
+#tabletAct{
+    display: none;
+    font-family: "Roboto", "Droid Sans", sans-serif;
+}
+
+/* Footer */
+#footer {
+    display: block;
+    bottom: 0;
+    padding: 0 0 30px 0;
+    background-color: #000000;
+    }
+
+footer p {
+    color: #FFFFFF;
+    font-size: 12px;
+    padding: 30px 0 0 10px;
+    font-family: "Roboto", "Droid Sans", sans-serif;
+}
+
+i {
+    float: right;
+    color: #0092F7;
+    padding-right: 15px;
+    margin-top: -15px;
+}
+
+/* Media Queries */
+
+@media all and (min-width: 48em){
+
+    /* Header */
+    #avatar {
+        width: 19%;
+        height: auto;
+        margin-top: 100px;
+        padding: 0;
+    }
+    
+  /* Navigation */
+    .navbar-toggler {
+        display: none;
+    }
+    
+    .navbar-brand {
+        width: 19%;
+        text-align: center;
+        color: #FFFFFF;
+        float: left;
+        background-color: #000000;
+        font-family: "Slabo 27px", "Lora", serif;
+    }
+    
+    #brandName {
+        font-size: 16px;
+    }
+    
+    #mainnav ul {
+        display: block;
+        width: 19%;
+        float: left;
+        clear: both;
+        text-align: center;
+        padding: 0;
+    }
+       
+    #mainnav li {
+        display: block;
+        width: 100%;
+        text-align: center;
+        float: left;
+        clear: both;
+        background-color: #000000;  
+    }     
+    
+    /* Main Content */
+    #content {
+        line-height: 1.8;
+        overflow: hidden;
+        -webkit-column-count: 2;
+        -webkit-column-gap: 10px;
+        -moz-column-count: 2;
+        -moz-column-gap: 10px;
+        column-count: 2;
+        column-gap: 10px;
+        padding: 25px 0 0 20px;
+    }
+    
+    #acIcon {
+        width: 15%;
+    }
+    
+    #conIcon {
+        width: 10%;
+    }
+    
+    #bio {
+        margin-top: -20px;
+        font-family: "Roboto", "Droid Sans", sans-serif;
+    }
+    
+    #education {
+        margin-top: 300px;
+        font-family: "Roboto", "Droid Sans", sans-serif;
+    }
+    
+    #bio h1 {
+        font-size: 22px;
+        font-family: "Slabo 27px", "Lora", serif;
+        color: #0092F7;
+    }
+
+    #jobExp h1 {
+        font-size: 22px;
+        font-family: "Slabo 27px", "Lora", serif;
+        color: #0092F7;
+    }
+    
+    #jobExp h3 {
+        font-size: 18px;
+        font-family: "Slabo 27px", "Lora", serif;
+    }
+    
+    #jobExp h4 {
+        font-size: 16px;
+        font-family: "Slabo 27px", "Lora", serif;
+    }
+    
+    #education h1 {
+        font-size: 22px;
+        font-family: "Slabo 27px", "Lora", serif;
+        color: #0092F7;
+    }
+    
+    #education h3 {
+        font-size: 18px;
+        font-family: "Slabo 27px", "Lora", serif;
+    }
+    
+    #education h4 {
+        font-size: 16px;
+        font-family: "Slabo 27px", "Lora", serif;
+    }
+
+    #skills h1 {
+        font-size: 22px;
+        font-family: "Slabo 27px", "Lora", serif;
+        color: #0092F7;
+    }
+    
+    #actSoc h1 {
+        font-size: 22px;
+        font-family: "Slabo 27px", "Lora", serif;
+        color: #0092F7;
+    }    
+}
+   
+@media all and (max-width: 48em) and (min-width: 35em){
+    
+    /* Header */
+    #avatar {
+        width: 19%;
+        height: auto;
+        margin-top: 100px;
+        padding: 0;
+    }
+    
+    /* Navigation */
+    .navbar-toggler {
+        display: none;
+    }
+    
+    .navbar-brand {
+        width: 19%;
+        text-align: center;
+        color: #FFFFFF;
+        float: left;
+        background-color: #000000;
+        font-family: "Slabo 27px", "Lora", serif;
+    }
+    
+    #mainnav ul {
+        display: table;
+        table-layout: fixed;
+        width: 81%;
+    }
+
+    #mainnav li {
+        display: table-cell;
+        width: 33.33%;
+        text-align: center;
+        font-size: 12px;
+    }   
+    
+    #mainnav ul li a {
+        font-size: 14px;    
+        padding: 5px;
+        font-family: "Slabo 27px", "Lora", serif;
+    }
+    
+    #brandName {
+        font-size: 14px;
+        padding: 5px;
+        height: 22px;
+    }
+    
+    /* Main Content */
+    #content {
+        line-height: 1.8;
+        overflow: hidden;
+        -webkit-column-count: 3;
+        -webkit-column-gap: 10px;
+        -moz-column-count: 3;
+        -moz-column-gap: 10px;
+        column-count: 3;
+        column-gap: 10px;
+        height: auto;
+        padding-left: 15px;
+    }
+    
+    p {
+        font-size: 12px;
+        font-family: "Roboto", "Droid Sans", sans-serif;
+        color: #FFFFFF;
+    }
+    
+    #bio {
+        margin-top: -20px;
+        margin-bottom: 50px;
+        font-family: "Roboto", "Droid Sans", sans-serif;
+    }
+    
+    #bio h1 {
+        font-size: 18px;
+        font-family: "Slabo 27px", "Lora", serif;
+        color: #0092F7;
+    }
+
+    #jobExp h1 {
+        font-size: 18px;
+        font-family: "Slabo 27px", "Lora", serif;
+        color: #0092F7;
+    }
+    
+    #jobExp h3 {
+        font-size: 14px;
+        font-family: "Slabo 27px", "Lora", serif;
+    }
+    
+    #jobExp h4 {
+        font-size: 13px;
+        font-family: "Slabo 27px", "Lora", serif;
+    }
+    
+    #education h1 {
+        font-size: 18px;
+        font-family: "Slabo 27px", "Lora", serif;
+        color: #0092F7;
+    }
+    
+    #education h3 {
+        font-size: 14px;
+        font-family: "Slabo 27px", "Lora", serif;
+    }
+    
+    #education h4 {
+        font-size: 13px;
+        font-family: "Slabo 27px", "Lora", serif;
+    }
+
+    #skills h1 {
+        font-size: 18px;
+        font-family: "Slabo 27px", "Lora", serif;
+        color: #0092F7;
+    }
+    
+    #actSoc h1 {
+        font-size: 18px;
+        font-family: "Slabo 27px", "Lora", serif;
+        color: #0092F7;
+    }
+    
+    #acIcon {
+        width: 12%;
+    }
+    
+    #conIcon {
+        width: 10%;
+    }
+    
+    #tabletAct{
+        display: block;
+        font-family: "Roboto", "Droid Sans", sans-serif;
+    }
+    
+    #baseAct{
+        display: none;
+        font-family: "Roboto", "Droid Sans", sans-serif;
+    }
+    
+    /* Footer */
+    #footer {
+        text-align: center;
+        font-family: "Roboto", "Droid Sans", sans-serif;
+    }
+    
+    i {
+        padding-top: 15px;
+        width: 25%;
+    }
+}
+
+@media all and (max-width: 35em){
+
+    #content {
+        text-align: center;
+    }
+    
+    #footer {
+        text-align: center;
+        font-family: "Roboto", "Droid Sans", sans-serif;
+    }
+    
+    i {
+        padding-top: 15px;
+        width: 25%;
+    }
+    
+    #bio h1 {
+        color: #0092F7;
+    }
+    
+    #skills h1 {
+        color: #0092F7;
+    }
+    
+    #actSoc h1 {
+        color: #0092F7;
+    }
+    
+    #education h1 {
+        color: #0092F7;
+    }
+    
+    #jobExp h1 {
+        color: #0092F7;
+    }
+}

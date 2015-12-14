@@ -1,0 +1,420 @@
+/* Serif */
+@import url(https://fonts.googleapis.com/css?family=Slabo+27px); /* font-family: "Slabo 27px", "Lora", serif; */
+@import url(https://fonts.googleapis.com/css?family=Lora);
+/* Sans-Serif */
+@import url(https://fonts.googleapis.com/css?family=Roboto); /* font-family: "Roboto", "Droid Sans", sans-serif; */
+@import url(https://fonts.googleapis.com/css?family=Droid+Sans);
+
+/* Colors */
+/*
+Black: #000000
+Charcoal: #434147
+White: #FFFFFF
+Blue: #00C0F7
+Darker-Blue: #0092F7
+*/
+
+* {
+    box-sizing: border-box;
+}
+
+/* Header */
+#masthead {
+    background-image: url("http://static1.squarespace.com/static/5555f62be4b0443afbe48196/t/55580f8de4b003c2510192ef/1431834509432/contact-banner.png?format=1500w");
+    /* free image from http://kaleenasaidit.com/ */
+    padding: 150px;
+    background-size: 100% 100%;
+}
+
+/* Navigation */
+#mainnav a {
+    text-align: center;
+    margin: auto;
+    font-family: "Slabo 27px", "Lora", serif;
+}
+
+#mainnav ul li a{
+    display: block;
+    white-space: nowrap;
+    list-style-type: none;
+    padding: 14px;
+    color: #FFFFFF;
+    clear: both;
+}
+
+ul {
+    padding-left: 0px;
+}
+
+#mainnav {
+    width: 100%; 
+    background-color: #000000;
+}
+
+#mainnav ul {
+    table-layout: fixed;
+    width: 100%;
+}
+
+#mainnav li {
+    display: block;
+    width: 100%;
+    text-align: center;
+}
+
+#mainnav li:hover {
+    background-color: #00C0F7;
+}
+
+.navbar-brand {
+    width: 100%;
+    text-align: center;
+    color: #FFFFFF;
+    display: block;
+    background-color: #000000;
+    float: left;
+    font-family: "Slabo 27px", "Lora", serif;
+}
+
+.navbar-toggler {
+    display: block;
+    margin: auto;
+    background-color: #0092F7;
+    color: #000000;
+    border: none;
+    width: 35px;
+}
+
+#navLink{
+    font-size: 16px;
+}
+
+/* Main Content */
+#wrapper {
+    background-color: #434147;
+}
+
+textarea {
+    width: 100%;
+    font-family: "Roboto", "Droid Sans", sans-serif;
+    border: 1px solid #0092F7;
+    border-left: 2px solid #0092F7;
+    border-right: 2px solid #0092F7;
+}
+
+
+p {
+    text-align: center;
+    font-family: "Roboto", "Droid Sans", sans-serif;
+    padding: 0 10px;
+    color: #FFFFFF;
+}
+
+h1 {
+    font-size: 1.5rem;
+    text-align: center;
+    font-family: "Slabo 27px", "Lora", serif;
+}
+
+label {
+    font-family: "Slabo 27px", "Lora", serif;
+    color: #FFFFFF;
+}
+
+form {
+    width: 100%;
+}
+
+input {
+    width: 100%;
+    padding: 5px;
+    font-family: "Roboto", "Droid Sans", sans-serif;
+    border: 1px solid #0092F7;
+    border-left: 2px solid #0092F7;
+    border-right: 2px solid #0092F7;
+}
+
+#legend {
+    color: #FFFFFF;
+    text-align: center;
+    font-family: "Slabo 27px", "Lora", serif;
+    border-bottom: 1px solid #0092F7;
+}
+
+#submit {
+    width: 100%;
+    background-color: #000000;
+    color: #FFFFFF;
+    font-family: "Slabo 27px", "Lora", serif;
+    border: 1px solid #0092F7;
+    border-left: 2px solid #0092F7;
+    border-right: 2px solid #0092F7;
+}
+
+fieldset {
+    border: none;
+}
+
+input[type="text"], textarea {
+    background-color : #000000; 
+
+}
+
+input[type="email"], textarea {
+    background-color : #000000; 
+
+}
+
+textarea:focus, input:focus {
+    color: #0092F7;
+}
+
+textarea:not(:focus), input:not(:focus) {
+    color: #0092F7;
+}
+
+input, select, textarea{
+    color: #0092F7;
+}
+
+/* Footer */
+#footer {
+    display: block;
+    bottom: 0;
+    padding: 0 0 30px 0;
+    background-color: #000000;
+}
+
+footer p {
+    color: #FFFFFF;
+    font-size: 12px;
+    padding: 30px 0 0 10px;
+    font-family: "Roboto", "Droid Sans", sans-serif;
+}
+
+i {
+    float: right;
+    color: #0092F7;
+    padding-right: 15px;
+    margin-top: -15px;
+}
+
+/* Media Queries */
+
+@media all and (min-width: 48em){
+
+  /* Navigation */
+    .navbar-toggler {
+        display: none;
+    }
+    
+    .navbar-brand {
+        width: 19%;
+        text-align: center;
+        color: #FFFFFF;
+        float: left;
+        background-color: #000000;
+        font-family: "Slabo 27px", "Lora", serif;
+   }
+    
+    #brandName {
+        font-size: 16px;
+    }
+    
+    #mainnav ul {
+        display: block;
+        width: 19%;
+        float: left;
+        clear: both;
+        text-align: center;
+        padding: 0;
+     }
+       
+    #mainnav li {
+        display: block;
+        width: 100%;
+        text-align: center;
+        float: left;
+        clear: both;
+        background-color: #000000;  
+     }     
+    
+    /* Main Content */
+   .inputs {
+        line-height: 1.8;
+        overflow: hidden;
+        -webkit-column-count: 1;
+        -webkit-column-gap: 75px;
+        -moz-column-count: 1;
+        -moz-column-gap: 75px;
+        column-count: 1;
+        column-gap: 75px;
+    }
+    
+    h1 {
+        font-size: 2.5rem;
+        font-family: "Slabo 27px", "Lora", serif;
+    }
+    
+    label {
+        display: inline-block;
+        width: 10%;
+        font-family: "Slabo 27px", "Lora", serif;
+    }
+    
+    input {
+        margin: 0 0 25px 0;
+        width: 85%;
+        font-family: "Roboto", "Droid Sans", sans-serif;    
+    }
+    
+    textarea {
+        width: 85%;
+    }
+    
+    #submit {
+        width: 10%;
+        font-family: "Slabo 27px", "Lora", serif;
+    }
+    
+    .box {
+        padding: 10px 0 10px 10px;
+    }   
+    
+    #legend {
+        padding-top: 10px;
+    }
+}
+   
+@media all and (max-width: 48em) and (min-width: 35em){
+    
+    /* Navigation */
+    .navbar-toggler {
+        display: none;
+    }
+    
+    .navbar-brand {
+        width: 19%;
+        text-align: center;
+        color: #FFFFFF;
+        float: left;
+        background-color: #000000;
+        font-family: "Slabo 27px", "Lora", serif;
+    }
+    
+    #mainnav ul {
+        display: table;
+        table-layout: fixed;
+        width: 81%;
+    }
+
+    #mainnav li {
+        display: table-cell;
+        width: 33.33%;
+        text-align: center;
+        font-size: 12px;
+    }   
+    
+    #mainnav ul li a {
+        font-size: 14px;    
+        padding: 5px;
+        font-family: "Slabo 27px", "Lora", serif;
+    }
+    
+    #brandName {
+        font-size: 14px;
+        padding: 5px;
+        height: 22px;
+    }
+    
+    /* Main Content */
+    .inputs {
+        line-height: 1.8;
+        overflow: hidden;
+        -webkit-column-count: 2;
+        -webkit-column-gap: 75px;
+        -moz-column-count: 2;
+        -moz-column-gap: 75px;
+        column-count: 2;
+        column-gap: 75px;
+        padding-left: 10px;
+    }
+    
+    h1 {
+        font-size: 2rem;
+        font-family: "Slabo 27px", "Lora", serif;
+    }
+    
+    input {
+        margin: 0 0 25px 0;
+        font-family: "Roboto", "Droid Sans", sans-serif;
+    }
+    
+    #messB {
+        padding-right: 20px;
+    }
+    
+    label {
+        font-size: 12px;
+        font-family: "Slabo 27px", "Lora", serif;
+    }
+    
+    #submit {
+        width: 25%;
+        float: right;
+        margin-bottom: 10px;
+        font-family: "Slabo 27px", "Lora", serif;
+        margin-right: 20px;
+        border: 1px solid #0092F7;
+        border-left: 2px solid #0092F7;
+        border-right: 2px solid #0092F7;
+    }
+    
+    .box {
+        padding: 5px;
+    }
+    
+    #mess {
+        margin-top: 10px;
+    }
+
+    /* Footer */
+    #footer {
+        text-align: center;
+        font-family: "Roboto", "Droid Sans", sans-serif;
+    }
+    
+    i {
+        padding-top: 15px;
+        width: 25%;
+    }
+}
+
+@media all and (max-width: 35em){
+
+    #content {
+        text-align: center;
+    }
+    
+    #footer {
+        text-align: center;
+        font-family: "Roboto", "Droid Sans", sans-serif;
+    }
+    
+    i {
+        padding-top: 15px;
+        width: 25%;
+    }
+    
+    #legend {
+        padding-top: 10px;
+    }
+    
+    .box label {
+        display: none;
+    }
+    
+    .box {
+        padding: 10px;
+    }
+}
