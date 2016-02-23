@@ -294,7 +294,8 @@ i {
         font-size: 22px;
         font-family: "Slabo 27px", "Lora", serif;
         color: #0092F7;
-    }    
+    } 
+    
 }
    
 @media all and (max-width: 48em) and (min-width: 35em){
@@ -358,6 +359,8 @@ i {
         column-gap: 10px;
         height: auto;
         padding-left: 15px;
+        padding-top: 40px;
+        margin-bottom: -30px;
     }
     
     p {
@@ -376,12 +379,14 @@ i {
         font-size: 18px;
         font-family: "Slabo 27px", "Lora", serif;
         color: #0092F7;
+        margin-top: 50px;
     }
 
     #jobExp h1 {
         font-size: 18px;
         font-family: "Slabo 27px", "Lora", serif;
         color: #0092F7;
+        margin-top: 40px;
     }
     
     #jobExp h3 {
@@ -398,6 +403,7 @@ i {
         font-size: 18px;
         font-family: "Slabo 27px", "Lora", serif;
         color: #0092F7;
+        margin-top: 40px;
     }
     
     #education h3 {
@@ -414,12 +420,14 @@ i {
         font-size: 18px;
         font-family: "Slabo 27px", "Lora", serif;
         color: #0092F7;
+        margin-top: 40px;
     }
     
     #actSoc h1 {
         font-size: 18px;
         font-family: "Slabo 27px", "Lora", serif;
         color: #0092F7;
+        margin-top: 40px;
     }
     
     #acIcon {
@@ -444,6 +452,7 @@ i {
     #footer {
         text-align: center;
         font-family: "Roboto", "Droid Sans", sans-serif;
+        margin-top: 80px;
     }
     
     i {
