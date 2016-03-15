@@ -132,10 +132,11 @@ ul {
 
 /* Footer */
 #footer {
+    display: block;
+    bottom: 0;
+    margin-top: 10px;
+    padding: 30px 0 30px 0;
     background-color: #000000;
-    width: 100%;
-    height: auto;
-    padding: 0 0 20px 0;
 }
 
 footer p {
@@ -292,14 +293,14 @@ i {
     
     /* Footer */
     #footer {
-        display: block;
-        bottom: 0;
-        padding: 0 0 30px 0;
-        text-align: center;
+    display: block;
+    bottom: 0;
+    margin-top: 10px;
+    padding: 30px 0 30px 0;
+    background-color: #000000;
     }
     
     i {
-        padding-top: 15px;
         width: 25%;
     }
 }
@@ -311,14 +312,14 @@ i {
     }
     
      #footer {
-        display: block;
-        bottom: 0;
-        padding: 0 0 30px 0;
-        text-align: center;
+    display: block;
+    bottom: 0;
+    margin-top: 10px;
+    padding: 30px 0 30px 0;
+    background-color: #000000;
     }
     
     i {
-        padding-top: 15px;
         width: 25%;
     }
     
