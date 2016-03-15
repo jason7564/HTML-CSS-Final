@@ -181,7 +181,8 @@ input, select, textarea{
 #footer {
     display: block;
     bottom: 0;
-    padding: 0 0 30px 0;
+    margin-top: 10px;
+    padding: 30px 0 30px 0;
     background-color: #000000;
 }
 
@@ -385,7 +386,6 @@ i {
     }
     
     i {
-        padding-top: 15px;
         width: 25%;
     }
 }
@@ -402,7 +402,6 @@ i {
     }
     
     i {
-        padding-top: 15px;
         width: 25%;
     }
     
